@@ -1,9 +1,10 @@
-import java.util.ArrayList;
+
+import RealizationChats.GroupChat;
+import RealizationChats.PrivateChat;
 
 class ICQ {
 
-    OnebyOne privateChat = new OnebyOne();
-    IsGroup group = new IsGroup();
-
+    PrivateChat privateChat = new PrivateChat();
+    GroupChat group = new GroupChat();
 
 }
